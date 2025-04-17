@@ -1,11 +1,38 @@
-# Customer Segmentation using K-Means Clustering
+# 🛍️ Customer Segmentation - Data Visualization Mini Project
 
-This project implements customer segmentation using the K-Means clustering algorithm. It uses customer data from a mall and clusters customers into distinct segments based on their age, annual income, and spending score.
+This project explores a customer dataset to understand purchasing behavior using data visualization techniques like histograms and statistical summaries.
 
-## Requirements
+## 📊 Objective
 
-To install the required libraries, run:
+The goal is to visually analyze customer features such as **Age**, **Annual Income**, and **Spending Score** using:
+
+- Histograms with KDE plots
+- Summary statistics
+
+## 🗃️ Dataset
+
+We use a dataset named `customers.csv` stored inside the `data/` folder. It contains the following columns:
+
+| Column Name               | Description                          |
+|---------------------------|--------------------------------------|
+| `CustomerID`              | Unique ID for each customer          |
+| `Gender`                  | Customer gender                      |
+| `Age`                     | Age of the customer                  |
+| `Annual Income (k$)`      | Yearly income in thousands of dollars|
+| `Spending Score (1-100)`  | Score assigned based on behavior     |
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## ▶️ How to Run
+
+1. **Install Dependencies:**
+
 ```bash
-pip install -r requirements.txt
+pip install pandas matplotlib seaborn
 
-   
+
